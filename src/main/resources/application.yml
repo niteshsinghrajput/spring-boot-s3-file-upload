@@ -1,0 +1,29 @@
+#cloud:
+#  aws:
+#    credentials:
+#      access-key: AKIA2A2R4SNSVXRC4HWB
+#      secret-key: 123
+#    region:
+#      static: ap-south-1
+#    stack:
+#      auto: false
+#
+#application:
+#  bucket:
+#    name: test
+#
+#spring:
+#  servlet:
+#    multipart:
+#      enabled: true
+#      file-size-threshold: 5MB
+#      max-file-size: 5MB
+#      max-request-size: 10MB
+
+amazonProperties:
+  endpointUrl: https://s3.us-east-2.amazonaws.com
+  accessKey: XXXXXXXXXXXXXXXXX
+  secretKey: XXXXXXXXXXXXXXXXXXXXXXXXXX
+  bucketName: your-bucket-name
+
+
